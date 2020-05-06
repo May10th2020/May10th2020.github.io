@@ -39,6 +39,8 @@ main h2{
     justify-content: center;
     font-family:  Brush Script MT, cursive;
     font-size: 45px;
-
+}
+p{
+    text-align: center;
 }
 

@@ -6,3 +6,39 @@
 body{
     background-color: pink;
 }
+.Heading{
+    background-color: lightcoral;
+    text-align: center;
+    font-family:  Brush Script MT, cursive;
+    font-size: xx-large;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(20, 1fr);
+    gap: 25px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    background-color: red;
+}
+.Heading2{
+    display: flex;
+    justify-content: center;
+    font-family:  Brush Script MT, cursive;
+    font-size: xx-large;
+    height: 100px;
+    
+}
+main h2{
+    color:blue;
+    display: flex;
+    justify-content: center;
+    font-family:  Brush Script MT, cursive;
+    font-size: 45px;
+
+}
+

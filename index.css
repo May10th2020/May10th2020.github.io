@@ -16,7 +16,7 @@ body{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(20, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     gap: 25px;
     
 }
@@ -53,6 +53,13 @@ p{
     border-color: red;
    
     
+}
+h3{
+    color:blue;
+    display: flex;
+    justify-content: center;
+    font-family:  Brush Script MT, cursive;
+    font-size: 200px; 
 }
 
 
